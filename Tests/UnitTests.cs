@@ -83,9 +83,9 @@ namespace GithubActionsLab
         [Test]
         public void Divide_Valid_Hoffman()
         {
-            Assert.AreEqual(4, Program.Subtract("16", "4"));
-            Assert.AreEqual(3, Program.Subtract("3", "1"));
-            Assert.AreEqual(5, Program.Subtract("35", "7"));
+            Assert.AreEqual(4, Program.Divide("16", "4"));
+            Assert.AreEqual(3, Program.Divide("3", "1"));
+            Assert.AreEqual(5, Program.Divide("35", "7"));
         }
 
         [Test]
